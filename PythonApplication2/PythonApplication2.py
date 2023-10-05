@@ -14,7 +14,7 @@ while True:
     print("10. Тангенс")
     print("11. Выход")
 
-    operation = input("Введите номер операции: ")
+    operation = int(input("Введите номер операции: "))
 
     if operation == '11':
         print("Конец.")
